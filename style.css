@@ -1,0 +1,87 @@
+.background-image{
+    background-image: url(https://media.istockphoto.com/photos/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-picture-id1205633216?k=20&m=1205633216&s=612x612&w=0&h=KWDzx6e4FX20F7Ff1HZgcRdQLRc_JdyB2BYthmEbMyQ=);
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 100vh;
+}
+
+.QQQ{
+}
+
+#start{
+    position: relative;
+
+}
+
+#card{
+    position: absolute;
+    display:none ;
+    width: 25rem;
+    
+}
+
+@media(max-width : 400px){
+    #card{
+        width: 16rem;
+    }
+}
+@media(max-width : 600px){
+    #card{
+        width: 18rem;
+    }
+}
+@media(max-width : 800px){
+    #card{
+        width: 20rem;
+    }
+}
+
+#point{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height:12rem;
+    width: 16rem;
+   
+   
+}
+
+.score{
+    display: none;
+}
+
+li:hover{
+    background-color: skyblue;
+}
+
+.queen{
+    font-size: 25px;
+    color: gold;
+}
+
+#start{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.progress{
+ 
+}
+
+#ProgressBar{
+    transition: width 3s ease-in-out;
+}
+
+.answer{
+    margin: 5px;
+}
